@@ -14,6 +14,8 @@
 		0B62A8CF222FD63D00CE68A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B62A8CE222FD63D00CE68A6 /* Assets.xcassets */; };
 		0B62A8D2222FD63D00CE68A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B62A8D0222FD63D00CE68A6 /* LaunchScreen.storyboard */; };
 		0B62A8DD222FD63D00CE68A6 /* SimpleCircularProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62A8DC222FD63D00CE68A6 /* SimpleCircularProgressBarTests.swift */; };
+		0B62A8EB222FD89000CE68A6 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62A8EA222FD89000CE68A6 /* CircularProgressBar.swift */; };
+		0B62A8ED222FD8A100CE68A6 /* CircularProgressBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B62A8EC222FD8A100CE68A6 /* CircularProgressBar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		0B62A8D8222FD63D00CE68A6 /* SimpleCircularProgressBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCircularProgressBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B62A8DC222FD63D00CE68A6 /* SimpleCircularProgressBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCircularProgressBarTests.swift; sourceTree = "<group>"; };
 		0B62A8DE222FD63D00CE68A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B62A8EA222FD89000CE68A6 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		0B62A8EC222FD8A100CE68A6 /* CircularProgressBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircularProgressBar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		0B62A8C3222FD63C00CE68A6 /* SimpleCircularProgressBar */ = {
 			isa = PBXGroup;
 			children = (
+				0B62A8E7222FD80D00CE68A6 /* CircleProgress */,
 				0B62A8C4222FD63C00CE68A6 /* AppDelegate.swift */,
 				0B62A8C6222FD63C00CE68A6 /* ViewController.swift */,
 				0B62A8C8222FD63C00CE68A6 /* Main.storyboard */,
@@ -97,6 +102,15 @@
 				0B62A8DE222FD63D00CE68A6 /* Info.plist */,
 			);
 			path = SimpleCircularProgressBarTests;
+			sourceTree = "<group>";
+		};
+		0B62A8E7222FD80D00CE68A6 /* CircleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				0B62A8EA222FD89000CE68A6 /* CircularProgressBar.swift */,
+				0B62A8EC222FD8A100CE68A6 /* CircularProgressBar.xib */,
+			);
+			path = CircleProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +197,7 @@
 				0B62A8D2222FD63D00CE68A6 /* LaunchScreen.storyboard in Resources */,
 				0B62A8CF222FD63D00CE68A6 /* Assets.xcassets in Resources */,
 				0B62A8CA222FD63C00CE68A6 /* Main.storyboard in Resources */,
+				0B62A8ED222FD8A100CE68A6 /* CircularProgressBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +218,7 @@
 				0B62A8CD222FD63C00CE68A6 /* SimpleCircularProgressBar.xcdatamodeld in Sources */,
 				0B62A8C7222FD63C00CE68A6 /* ViewController.swift in Sources */,
 				0B62A8C5222FD63C00CE68A6 /* AppDelegate.swift in Sources */,
+				0B62A8EB222FD89000CE68A6 /* CircularProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
