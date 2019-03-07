@@ -11,6 +11,6 @@ import Foundation
 
 class RebaseClass {
     
-    var rebase: String = "rebase33--"
+    var rebase: String = "rebase33--XXX"
     
 }
