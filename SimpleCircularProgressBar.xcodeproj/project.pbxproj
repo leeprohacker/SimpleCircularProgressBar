@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,9 @@
 		0B62A8DD222FD63D00CE68A6 /* SimpleCircularProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62A8DC222FD63D00CE68A6 /* SimpleCircularProgressBarTests.swift */; };
 		0B62A8EB222FD89000CE68A6 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62A8EA222FD89000CE68A6 /* CircularProgressBar.swift */; };
 		0B62A8ED222FD8A100CE68A6 /* CircularProgressBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B62A8EC222FD8A100CE68A6 /* CircularProgressBar.xib */; };
+		0B9391DB2230E2F2003CA953 /* RebaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9391DA2230E2F2003CA953 /* RebaseClass.swift */; };
+		20E2AE538C8723FDA1BCDFCA /* Pods_SimpleCircularProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EF7CBC70F769E182E22BE6 /* Pods_SimpleCircularProgressBar.framework */; };
+		86B67DBDAE529E76EB1B620A /* Pods_SimpleCircularProgressBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C474D55FAD3A1ED5F1BAA85 /* Pods_SimpleCircularProgressBarTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049524B7B5ABA2E36536D197 /* Pods-SimpleCircularProgressBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCircularProgressBarTests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleCircularProgressBarTests/Pods-SimpleCircularProgressBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		06EF7CBC70F769E182E22BE6 /* Pods_SimpleCircularProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCircularProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B62A8C1222FD63C00CE68A6 /* SimpleCircularProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCircularProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B62A8C4222FD63C00CE68A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B62A8C6222FD63C00CE68A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +47,11 @@
 		0B62A8DE222FD63D00CE68A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B62A8EA222FD89000CE68A6 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
 		0B62A8EC222FD8A100CE68A6 /* CircularProgressBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircularProgressBar.xib; sourceTree = "<group>"; };
+		0B9391DA2230E2F2003CA953 /* RebaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebaseClass.swift; sourceTree = "<group>"; };
+		2C474D55FAD3A1ED5F1BAA85 /* Pods_SimpleCircularProgressBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCircularProgressBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B68AA6F261958A823329B52 /* Pods-SimpleCircularProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCircularProgressBar.release.xcconfig"; path = "Target Support Files/Pods-SimpleCircularProgressBar/Pods-SimpleCircularProgressBar.release.xcconfig"; sourceTree = "<group>"; };
+		865EE84C89DE23D012BE0A5A /* Pods-SimpleCircularProgressBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCircularProgressBar.debug.xcconfig"; path = "Target Support Files/Pods-SimpleCircularProgressBar/Pods-SimpleCircularProgressBar.debug.xcconfig"; sourceTree = "<group>"; };
+		8D3AFE09E5AAD00B832C0F9B /* Pods-SimpleCircularProgressBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCircularProgressBarTests.release.xcconfig"; path = "Target Support Files/Pods-SimpleCircularProgressBarTests/Pods-SimpleCircularProgressBarTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E2AE538C8723FDA1BCDFCA /* Pods_SimpleCircularProgressBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B67DBDAE529E76EB1B620A /* Pods_SimpleCircularProgressBarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +80,8 @@
 				0B62A8C3222FD63C00CE68A6 /* SimpleCircularProgressBar */,
 				0B62A8DB222FD63D00CE68A6 /* SimpleCircularProgressBarTests */,
 				0B62A8C2222FD63C00CE68A6 /* Products */,
+				BD801F9281A45337424A6F5B /* Pods */,
+				272F1309471566206D7C1940 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +105,7 @@
 				0B62A8D0222FD63D00CE68A6 /* LaunchScreen.storyboard */,
 				0B62A8D3222FD63D00CE68A6 /* Info.plist */,
 				0B62A8CB222FD63C00CE68A6 /* SimpleCircularProgressBar.xcdatamodeld */,
+				0B9391DA2230E2F2003CA953 /* RebaseClass.swift */,
 			);
 			path = SimpleCircularProgressBar;
 			sourceTree = "<group>";
@@ -113,6 +128,26 @@
 			path = CircleProgress;
 			sourceTree = "<group>";
 		};
+		272F1309471566206D7C1940 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06EF7CBC70F769E182E22BE6 /* Pods_SimpleCircularProgressBar.framework */,
+				2C474D55FAD3A1ED5F1BAA85 /* Pods_SimpleCircularProgressBarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD801F9281A45337424A6F5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				865EE84C89DE23D012BE0A5A /* Pods-SimpleCircularProgressBar.debug.xcconfig */,
+				3B68AA6F261958A823329B52 /* Pods-SimpleCircularProgressBar.release.xcconfig */,
+				049524B7B5ABA2E36536D197 /* Pods-SimpleCircularProgressBarTests.debug.xcconfig */,
+				8D3AFE09E5AAD00B832C0F9B /* Pods-SimpleCircularProgressBarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B62A8E1222FD63D00CE68A6 /* Build configuration list for PBXNativeTarget "SimpleCircularProgressBar" */;
 			buildPhases = (
+				D07ECDB523F6E11CF9469366 /* [CP] Check Pods Manifest.lock */,
 				0B62A8BD222FD63C00CE68A6 /* Sources */,
 				0B62A8BE222FD63C00CE68A6 /* Frameworks */,
 				0B62A8BF222FD63C00CE68A6 /* Resources */,
+				B8E3C960FE925820891E3161 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,6 +174,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B62A8E4222FD63D00CE68A6 /* Build configuration list for PBXNativeTarget "SimpleCircularProgressBarTests" */;
 			buildPhases = (
+				780BE4ED0AD691836F730B18 /* [CP] Check Pods Manifest.lock */,
 				0B62A8D4222FD63D00CE68A6 /* Sources */,
 				0B62A8D5222FD63D00CE68A6 /* Frameworks */,
 				0B62A8D6222FD63D00CE68A6 /* Resources */,
@@ -210,12 +248,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		780BE4ED0AD691836F730B18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleCircularProgressBarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8E3C960FE925820891E3161 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleCircularProgressBar/Pods-SimpleCircularProgressBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleCircularProgressBar/Pods-SimpleCircularProgressBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleCircularProgressBar/Pods-SimpleCircularProgressBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D07ECDB523F6E11CF9469366 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleCircularProgressBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B62A8BD222FD63C00CE68A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0B62A8CD222FD63C00CE68A6 /* SimpleCircularProgressBar.xcdatamodeld in Sources */,
+				0B9391DB2230E2F2003CA953 /* RebaseClass.swift in Sources */,
 				0B62A8C7222FD63C00CE68A6 /* ViewController.swift in Sources */,
 				0B62A8C5222FD63C00CE68A6 /* AppDelegate.swift in Sources */,
 				0B62A8EB222FD89000CE68A6 /* CircularProgressBar.swift in Sources */,
@@ -378,6 +481,7 @@
 		};
 		0B62A8E2222FD63D00CE68A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865EE84C89DE23D012BE0A5A /* Pods-SimpleCircularProgressBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +500,7 @@
 		};
 		0B62A8E3222FD63D00CE68A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B68AA6F261958A823329B52 /* Pods-SimpleCircularProgressBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -414,6 +519,7 @@
 		};
 		0B62A8E5222FD63D00CE68A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049524B7B5ABA2E36536D197 /* Pods-SimpleCircularProgressBarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -435,6 +541,7 @@
 		};
 		0B62A8E6222FD63D00CE68A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3AFE09E5AAD00B832C0F9B /* Pods-SimpleCircularProgressBarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
